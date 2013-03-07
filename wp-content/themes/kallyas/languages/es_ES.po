@@ -1,0 +1,2181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kallyas Esp\n"
+"POT-Creation-Date: 2013-02-22 11:32+0200\n"
+"PO-Revision-Date: 2013-02-25 19:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\test\\wp-content\\themes\\kallyas\n"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/404.php:30
+msgid "No hemos encontrado la página."
+msgstr "No hemos encontrado la página."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive-portfolio.php:35
+#: C:\wamp\www\test\wp-content\themes\kallyas/taxonomy-project_category.php:35
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:2460
+msgid "Sort By:"
+msgstr "Ordenar por:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive-portfolio.php:37
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:64
+#: C:\wamp\www\test\wp-content\themes\kallyas/taxonomy-project_category.php:37
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:2462
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:88
+msgid "Name"
+msgstr "Nombre"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive-portfolio.php:38
+#: C:\wamp\www\test\wp-content\themes\kallyas/taxonomy-project_category.php:38
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:2463
+msgid "Date"
+msgstr "Fecha"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive-portfolio.php:41
+#: C:\wamp\www\test\wp-content\themes\kallyas/taxonomy-project_category.php:41
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:2466
+msgid "Direction:"
+msgstr "Orientación:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive-portfolio.php:43
+#: C:\wamp\www\test\wp-content\themes\kallyas/taxonomy-project_category.php:43
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:2468
+msgid "ASC"
+msgstr "ASC"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive-portfolio.php:44
+#: C:\wamp\www\test\wp-content\themes\kallyas/taxonomy-project_category.php:44
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:2469
+msgid "DESC"
+msgstr "DESC"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive-portfolio.php:156
+#: C:\wamp\www\test\wp-content\themes\kallyas/single-portfolio.php:71
+#: C:\wamp\www\test\wp-content\themes\kallyas/taxonomy-project_category.php:156
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:2632
+msgid "Live Preview: "
+msgstr "Vista previa:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive-portfolio.php:160
+#: C:\wamp\www\test\wp-content\themes\kallyas/taxonomy-project_category.php:160
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:2636
+msgid "See more &rarr;"
+msgstr "Ver más &rarr;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive.php:71
+#: C:\wamp\www\test\wp-content\themes\kallyas/index.php:72
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1752
+msgid "by"
+msgstr "por"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive.php:91
+#: C:\wamp\www\test\wp-content\themes\kallyas/index.php:92
+msgid "Leer m..."
+msgstr "Leer más"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive.php:99
+#: C:\wamp\www\test\wp-content\themes\kallyas/index.php:100
+msgid "Published in"
+msgstr "Publicado en"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive.php:107
+#: C:\wamp\www\test\wp-content\themes\kallyas/index.php:108
+#: C:\wamp\www\test\wp-content\themes\kallyas/single.php:156
+msgid "Tagged under:"
+msgstr "Etiquetado bajo:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/archive.php:122
+#: C:\wamp\www\test\wp-content\themes\kallyas/index.php:123
+msgid "Sorry, no posts matched your criteria."
+msgstr "Disculpa, no hemos encontrado posts con tu criterio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Éste post está protegido por contraseña. Introduce la contraseña para ver "
+"comentarios."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:53
+msgid "You must be "
+msgstr "Debes ser"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:53
+msgid "logged in"
+msgstr "identificado"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:53
+msgid "to post a comment."
+msgstr "introducir un comentario."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:60
+msgid "Logged in as"
+msgstr "Identificado como"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:60
+msgid "Log out"
+msgstr "Salir"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:68
+msgid "Mail (will not be published)"
+msgstr "E-mail (no será publicado)"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:71
+msgid "Website"
+msgstr "Web"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/comments.php:78
+msgid "Comment"
+msgstr "Comentario"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/footer.php:62
+msgid "GET SOCIAL"
+msgstr "SOCIALÍZATE"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/footer.php:115
+msgid "TOP"
+msgstr "SUBIR"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:170
+msgid "Page "
+msgstr "Página"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1362
+msgid "Message successfully sent!"
+msgstr "¡Mensaje enviado correctamente!"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1366
+msgid "Message not sent! Please Try Again!"
+msgstr "¡Mensaje no enviado! Prueba de nuevo en unos minutos."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1596
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2113
+msgid "years"
+msgstr "años"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1596
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2113
+msgid "months"
+msgstr "meses"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1596
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2113
+msgid "weeks"
+msgstr "semanas"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1596
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2113
+msgid "days"
+msgstr "días"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1596
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2113
+msgid "hours"
+msgstr "horas"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1596
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1597
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2113
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2114
+msgid "min"
+msgstr "minutos"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1596
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1597
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2113
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2114
+msgid "sec"
+msgstr "segundos"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1597
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2114
+msgid "year"
+msgstr "año"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1597
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2114
+msgid "month"
+msgstr "mes"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1597
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2114
+msgid "week"
+msgstr "semana"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1597
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2114
+msgid "day"
+msgstr "día"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:1597
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2114
+msgid "hour"
+msgstr "hora"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2076
+msgid "Item Added to cart!"
+msgstr "¡Producto añadido al carrito!"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2364
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/review.php:18
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2364
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/review.php:18
+msgid "says :"
+msgstr "dice:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2368
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está en espera de ser moderado."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2373
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2373
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2437
+msgid "SUPPORT"
+msgstr "SOPORTE"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2519
+msgid "Search for..."
+msgstr "Buscar por..."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2527
+#: C:\wamp\www\test\wp-content\themes\kallyas/header.php:51
+msgid "SEARCH ..."
+msgstr "BUSCAR..."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2546
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3308
+msgid "Total of"
+msgstr "Total de"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2546
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3304
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3308
+msgid "View your shopping cart"
+msgstr "Ver tu carrito de compra"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2546
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3308
+msgid "Checkout"
+msgstr "Pagar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2669
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2673
+msgid "Start"
+msgstr "Inicio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2670
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2674
+msgid "Prev"
+msgstr "Anterior"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2687
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2691
+msgid "Next"
+msgstr "Siguiente"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2688
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2692
+msgid "End"
+msgstr "Fin"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2697
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3065
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/breadcrumb.php:204
+msgid "Page"
+msgstr "Página"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2697
+msgid "of"
+msgstr "de"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2770
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-blog-categories.php:11
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-blog-categories.php:17
+msgid "Categories"
+msgstr "Categorías"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2771
+msgid "Category"
+msgstr "Categoría"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2772
+msgid "Search Categories"
+msgstr "Buscar categorías"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2773
+msgid "All Categories"
+msgstr "Todas las categorías"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2774
+msgid "Parent Category"
+msgstr "Categoría padre"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2775
+msgid "Parent Category:"
+msgstr "Categoría padre:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2776
+msgid "Edit Category"
+msgstr "Editar categoría"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2777
+msgid "Update Category"
+msgstr "Actualizar categoría"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2778
+msgid "Add New Category"
+msgstr "Añadir categoría"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2779
+msgid "New Category Name"
+msgstr "Nuevo nombre de la categoría"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2780
+msgid "Portfolio categories"
+msgstr "Categorías del portafolio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2799
+msgid "Home"
+msgstr "Inicio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2852
+msgid "Archive from category "
+msgstr "Archivo de categoría"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2908
+#: C:\wamp\www\test\wp-content\themes\kallyas/header.php:146
+msgid "Search results for "
+msgstr "Resultados de búsqueda para"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:2928
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/breadcrumb.php:88
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/breadcrumb.php:190
+msgid "Search results for &ldquo;"
+msgstr "Resultados de búsqueda para &ldquo;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3051
+#: C:\wamp\www\test\wp-content\themes\kallyas/header.php:156
+msgid "Posts tagged "
+msgstr "Posts etiquetados"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3057
+#: C:\wamp\www\test\wp-content\themes\kallyas/header.php:161
+msgid "Articles posted by "
+msgstr "Artículos subidos por"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3060
+msgid "Error 404 "
+msgstr "Error 404"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3107
+msgid "SIGN IN YOUR ACCOUNT TO HAVE ACCESS TO DIFFERENT FEATURES"
+msgstr "INICIA SESIÓN CON TU CUENTA"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3112
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3130
+msgid "CREATE ACCOUNT"
+msgstr "CREAR CUENTA"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3115
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3133
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:55
+msgid "Username"
+msgstr "Usuario"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3116
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:31
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:74
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/form-login.php:22
+msgid "Password"
+msgstr "Contraseña"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3118
+msgid " Remember Me"
+msgstr "Recuérdame"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3119
+msgid "LOG IN"
+msgstr "LOG IN"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3121
+msgid "FORGOT YOUR PASSWORD?"
+msgstr "¿HAS PERDIDO TU CONTRASEÑA?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3136
+msgid "Your email"
+msgstr "Tu e-mail"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3139
+msgid "CREATE MY ACCOUNT"
+msgstr "CREAR MI CUENTA"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3141
+msgid "ALREADY HAVE AN ACCOUNT?"
+msgstr "¿YA TIENES UNA CUENTA?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3150
+msgid "FORGOT YOUR DETAILS?"
+msgstr "¿HAS PERDIDO TUS DETALLES?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3153
+msgid "Username or E-mail"
+msgstr "Usuario o e-mail"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3156
+msgid "SEND MY DETAILS!"
+msgstr "ENVIAR MIS DETALLES"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3158
+msgid "AAH, WAIT, I REMEMBER NOW!"
+msgstr "¡UN MOMENTO, YA ME ACUERDO!"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3182
+msgid "LOGOUT"
+msgstr "SALIR"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/functions.php:3305
+msgid "MY CART"
+msgstr "CARRITO"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/sidebar.php:10
+msgid ""
+"To edit this sidebar, go to admin backend's <strong><em>Appearance -> "
+"Widgets</em></strong> and place widgets into the <strong><em>Pages Sidebar</"
+"em></strong> Widget Area"
+msgstr ""
+"Para editar éste sidebar, dirígete al panel de administración, "
+"<strong><em>Apariencia -> Widgets</em></strong> y coloca los widgets dentro "
+"de <strong><em>Páginas sidebar</em></strong> Área de los widgets."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/single-portfolio.php:75
+msgid "Our collaborators: "
+msgstr "Nuestros colaboradores: "
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/single-portfolio.php:78
+msgid "Category: "
+msgstr "Categoría: "
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/single.php:88
+msgid "by "
+msgstr "por"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/single.php:93
+msgid "Published in "
+msgstr "Publicado en"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/single.php:109
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/zn-init.php:85
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr "Instalar plugins requeridos"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/zn-init.php:86
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr "Instalar plugins"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/zn-init.php:87
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalando plugin: %s"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/zn-init.php:88
+msgid "Something went wrong with the plugin API."
+msgstr "Ha ocurrido un error con la API del plugin"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/zn-init.php:99
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:178
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de plugins requeridos"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/zn-init.php:100
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:179
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/zn-init.php:101
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Todos los plugins se han instalado y activado correctamente. %s"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/parsers.php:42
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr "Ha ocurrido un error mientras se leía el archivo WXR."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Los detalles son mostrados arriba. El importador intentará de nuevo con otro "
+"analizador."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/parsers.php:67
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/parsers.php:72
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/parsers.php:262
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Esto no parece un archivo WXR, versión inválida."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:126
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:135
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:186
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:190
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:199
+msgid "Sorry, there has been an error."
+msgstr "Disculpa, ha habido un error."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:127
+msgid "The file does not exist, please try again."
+msgstr "El archivo no existe, prueba de nuevo."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:170
+msgid "All done."
+msgstr "Todo OK."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:170
+msgid "Have fun!"
+msgstr "¡Diviértase!"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:171
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+"Recuerda actualizar las contraseñas y los roles de los usuarios importados."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:191
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"El archivo exportado  no ha podido ser encontrado en <code>%s</code>. "
+"Probablemente ha sido causado por un problema de permisos."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:207
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"El archivo WXR (versión %s) no puede ser utilizado por esta versión del "
+"importador. Porfavor actualízalo."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:232
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Error al importar el autor %s. Sus posts serán otorgados al usuario actual."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:258
+msgid "Assign Authors"
+msgstr "Asigna autores"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:259
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Para sue sea más fácil para usted editar y guardar el contenido importado, "
+"es posible que desee resignar el autor del artículo importado a un usuario "
+"existente de éste sitio. Por ejemplo, es posible que desee importar todas "
+"las entradas como <code>administrador</code>."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:261
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Si un nuevo usuario es creado por Wordpress, el nuevo password será generado "
+"automáticamente y el rol del nuevo usuario será %s. Manualmente puedes "
+"cambiar los detalles del nuevo usuario."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:271
+msgid "Import Attachments"
+msgstr "Importa adjuntos"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:274
+msgid "Download and import file attachments"
+msgstr "Descarga e importa archivos adjuntos."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:291
+msgid "Import author:"
+msgstr "Autor importanción:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:302
+msgid "or create new user with login name:"
+msgstr "o añade un nuevo usuario con el nombre de inicio de sesión"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:305
+msgid "as a new user:"
+msgstr "como un nuevo usuario:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:313
+msgid "assign posts to an existing user:"
+msgstr "asigna sue posts a un usuario existente:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:315
+msgid "or assign posts to an existing user:"
+msgstr "o asigna sus posts a un usuario existente:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:316
+msgid "- Select -"
+msgstr "- Seleccionar -"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:366
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Error al crear un nuevo usuario por %s. Sus posts serán vinculados a éste "
+"usuario."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:415
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:453
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:497
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:623
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:519
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:540
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; ya existe."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:595
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Fallo al importar %s &#8220;%s&#8221;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:759
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Elemento de menú saltado por falta del slug del menú."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:766
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Elemento de menú saltado debido a un slug no válido del menú: %s"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:829
+msgid "Fetching attachments is not enabled"
+msgstr "Obtener archivos adjuntos no está habilitado."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:842
+msgid "Invalid file type"
+msgstr "Extensión de archivo incorrecta."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:886
+msgid "Remote server did not respond"
+msgstr "El servidor remoto parece no responder"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:892
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Servidor remoto ha devuelto un error %1$d %2$s"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:899
+msgid "Remote file is incorrect size"
+msgstr "El Archivo remoto tiene un tamaño incorrecto"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:904
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:910
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Archivo remoto demasiado grande, el límite es %s"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:1023
+msgid "Import WordPress"
+msgstr "Importar Wordpress"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:1030
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Hay una nueva versión disponible del importador. Por favor, actualizado a la "
+"versión %s para asegurarnos de la compatibilidad para nuevas exportaciones."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:1045
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Sube tu Wordpress extended RSS (WXR) y empieza a importar tus posts, "
+"páginas, comentarios… en éste sitio."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:1046
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Escoja un archivo WXR (.xml) para subir, y cloque en Subir archivo e "
+"importar."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/dummy_content/wordpress-importer/wordpress-importer.php:1121
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+"Importar <strong>posts, páginas, comentarios, campos personalizados, "
+"categorías y etiquetas</strong> a partir de un archivo de exportación de "
+"Wordpress"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr "Algo salió mal."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugins han sido instalados y activados correctamente. %1$s"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:517
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr "Volver al escritorio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr "El siguiente plugin ha sido activado correctamente: %s."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr "Descartar éste aviso."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr "Vínculo externo"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr "Repositorio privado"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr "Repositorio de Wordpress"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr "Obligatorio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr "Instalado pero no activado"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"No hay plugins para installer o activar. <a href=\"%1$s\" title=\"Return to "
+"the Dashboard\">Return to the Dashboard</a>"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr "Plugin"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr "Fuente"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr "Tipo"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1300
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:34
+msgid "Status"
+msgstr "Estado"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr "Instalar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr "Activar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr "Instalación del paquete no disponible."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+"Descargando el paquete de instalación desde <span class=\"code\">%s</"
+"span>&#8230;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr "Descomprimiento el paquete&#8230;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr "Instalando el plugin&#8230;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr "Fallo en la instalación del plugin."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr "La instalación del plugin se ha completado."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr "La activación del plugin ha fallado."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"El proceso de instalación y activación ha empezado. Éste proceso puede "
+"tardar un poco en algunos servidores, por favor, tenga paciencia."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado y activado correctamente."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1956
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr "Mostrar detalles"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1956
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr "Esconder detalles"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr "Todas las instalaciones y activaciones se han completado."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando plugin %1$s (%2$d/%3$d)"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"El proceso de instalación ha comenzado. Éste proceso puede tardar un poco en "
+"algunos servidores, por favor, tenga paciencia."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Ha ocurrido un error mientras se instalaba %1$s: <strong>%2$s</strong>."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "La instalación de %1$s ha fallado."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado correctamente."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones se han completado."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/admin/framework/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando plugin  %1$s (%2$d/%3$d)"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:315
+msgid "LATEST PRODUCTS"
+msgstr "ÚLTIMOS PRODUCTOS"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:321
+msgid "BEST SELLING PRODUCTS"
+msgstr "PRODUCTOS MÁS VENDIDOS"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:361
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:378
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:502
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:519
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/content-product.php:43
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/content-product.php:60
+msgid "Read More"
+msgstr "Leer más"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:370
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:511
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/content-product.php:52
+msgid "Select options"
+msgstr "Seleccionar opciones"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:374
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:515
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/content-product.php:56
+msgid "View options"
+msgstr "Ver opciones"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:382
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:523
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/content-product.php:64
+msgid "ADD TO CART"
+msgstr "AÑADIR AL CARRITO"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:398
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:539
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/content-product.php:84
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/product-image.php:26
+msgid "NEW!"
+msgstr "NUEVO!"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:406
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:547
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/content-product.php:95
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/product-image.php:37
+msgid "SALE!"
+msgstr "REBAJADO!"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:430
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:571
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/content-product.php:122
+msgid "MORE INFO"
+msgstr "MÁS INFO"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1030
+msgid "PRESENT"
+msgstr "ACTUALIDAD"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1450
+msgid "Read more"
+msgstr "Leer más"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1461
+msgid "By"
+msgstr "Por"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1463
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1752
+msgid "in"
+msgstr "en"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1500
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1591
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1687
+msgid "VIEW ALL"
+msgstr "VER TODOS"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1542
+msgid "in "
+msgstr "en"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:1775
+msgid "READ MORE"
+msgstr "LEER MÁS"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:4506
+msgid "Create <strong>your account</strong> now"
+msgstr "Crear <strong>tu cuenta</strong> ahora"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:4517
+msgid "REGISTER"
+msgstr "REGISTRO"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/content-page.php:4595
+msgid "-or stay connected: "
+msgstr "-o estar conectado:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/template-helpers/shortcodes.php:195
+msgid "Scan this QR Code!"
+msgstr "¡Escanea éste código QR!"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-archive.php:10
+msgid "A monthly archive of your site&#8217;s posts"
+msgstr "Archivo mensual de tu sitio&#8217;s posts"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-archive.php:11
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-archive.php:18
+msgid "Archives"
+msgstr "Archivos"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-archive.php:26
+msgid "Select Month"
+msgstr "Seleccionar mes"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-archive.php:55
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-blog-categories.php:81
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-contact-details.php:83
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-flickr.php:82
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-latest_posts.php:110
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:127
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-menu.php:56
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:158
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-tag-cloud.php:47
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-twitter.php:64
+msgid "Title:"
+msgstr "Título:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-archive.php:57
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-blog-categories.php:85
+msgid "Display as dropdown"
+msgstr "Mostrar un desplegable"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-archive.php:60
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-blog-categories.php:89
+msgid "Show post counts"
+msgstr "Mostrar contador de posts"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-blog-categories.php:10
+msgid "A list or dropdown of categories"
+msgstr "Lista de desplegables de categorías"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-blog-categories.php:29
+msgid "Select Category"
+msgstr "Seleccionar categoría"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-blog-categories.php:94
+msgid "Show hierarchy"
+msgstr "Mostrar jerarquía"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-contact-details.php:19
+msgid ""
+"This widget will display your content with a \"Say Hello\" image on the top "
+"right."
+msgstr ""
+"Éste widget mostrará tu contenido con una imágen en la parte superior "
+"derecha que pone: \"SAY HELLO\""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-contact-details.php:23
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-flickr.php:11
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:12
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-menu.php:11
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:19
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-twitter.php:11
+msgid "["
+msgstr "["
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-contact-details.php:93
+msgid "Automatically add paragraphs"
+msgstr "Añadir automáticamente los párrafos."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-flickr.php:10
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-menu.php:10
+msgid ""
+"Use this widget to add one of your custom menus as a widget.This widget will "
+"dysplay two menu items on a row."
+msgstr ""
+"Utiliza éste widget para añadir uno de tus menús personalizados como widget. "
+"Éste widget mostrará dos elementos de menú en una fila."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-flickr.php:86
+msgid "Flickr ID:"
+msgstr "Flick ID:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-flickr.php:90
+msgid "Number of images:"
+msgstr "Número de imágenes:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-flickr.php:94
+msgid "Image Size:"
+msgstr "Tamaño imagen:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-latest_posts.php:14
+msgid "The most recent posts on your site"
+msgstr "Los posts más recientes de tu sitio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-latest_posts.php:15
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-latest_posts.php:40
+msgid "Recent Posts"
+msgstr "Posts recientes"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-latest_posts.php:113
+msgid "Number of posts to show:"
+msgstr "Número de posts a mostrar:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:11
+msgid "Use this widget to add a mailchimp newsletter to your site."
+msgstr "Utiliza éste widget para añadir MailChimp Newsletter a tu sitio."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:39
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:193
+msgid ""
+"Success!&nbsp; Check your inbox or spam folder for a message containing a "
+"confirmation link."
+msgstr ""
+"Perfecto!&nbsp; Comprueba tu bandeja de entrada o carpeta SPAM para ver el "
+"mensaje con el link de confirmación."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:42
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:196
+msgid "Error:"
+msgstr "Error:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:104
+msgid ""
+"Curl is not enabled on your hosting environment. Please contact your hosting "
+"company and ask them to enable CURL for your account."
+msgstr ""
+"Curl no está habilitado en el entorno de alojamiento. Por favor ponte en "
+"contacto con el proveedor de tu hosting y pregúntales como habilitar CURL "
+"para tu cuenta."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:109
+msgid ""
+"Please enter your MailChimp API KEY in the theme options pannel prior of "
+"using this widget."
+msgstr ""
+"Por favor introduce tu MailChimp API KEY en el panel de opciones del tema "
+"antes de utilizar éste widget."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:132
+msgid "Select List:"
+msgstr "Seleccionar lista:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:148
+msgid "Intro Text :"
+msgstr "Texto introductorio:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-mailchimp.php:152
+msgid "After Form Text :"
+msgstr "Texto para después del formulario:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-menu.php:51
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr "Aún no se han creado menús. <a href=\"%s\">Crear algunos</a>."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-menu.php:60
+msgid "Select Menu:"
+msgstr "Seleccionar un menú:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:15
+msgid "This widget will display your desired social buttons."
+msgstr "Éste widget mostrará tus botones sociales."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:162
+msgid "Show Facebook Button ?"
+msgstr "¿Mostrar botón Facebook?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:164
+msgid "Show twitter Button ?"
+msgstr "¿Mostrar botón Twitter?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:165
+msgid "Show Google Plus Button ?"
+msgstr "¿Mostrar botón Google Plus?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:166
+msgid "Show pinterest Button ?"
+msgstr "¿Mostrar botón Pinterest?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:168
+msgid "Facebook Username:"
+msgstr "Usuario Facebook:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:173
+msgid "Twitter Text:"
+msgstr "Texto twitter:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:177
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-twitter.php:68
+msgid "Twitter Username:"
+msgstr "Usuario twitter:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:181
+msgid "Twitter HashTag:"
+msgstr "Twitter hashtag:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:185
+msgid "Pinterest Image:"
+msgstr "Imagen Pinterest:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-social_buttons.php:189
+msgid "Pinterest Description:"
+msgstr "Descripción Pinterest:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-tag-cloud.php:10
+msgid "Your most used tags in cloud format"
+msgstr "Las etiquetas más utilizadas en formato nube"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-tag-cloud.php:11
+msgid "Tag Cloud"
+msgstr "Nube de etiquetas"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-tag-cloud.php:21
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-tag-cloud.php:49
+msgid "Taxonomy:"
+msgstr "Taxonomía:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-twitter.php:10
+msgid "Use this widget to add a twitter widget to your site."
+msgstr "Utiliza éste widget para añadir Twitter en tu sitio."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/widgets/widget-twitter.php:34
+msgid ""
+"There seems to be a problem with loading the tweets. Please refresh or try "
+"again later."
+msgstr ""
+"Parece que hay un problema cargando los tweets. Por favor, actualiza o "
+"inténtalo más tarde."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/archive-product.php:58
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr "Resultados de búsqueda: &ldquo;%s&rdquo;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/archive-product.php:60
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr "&nbsp;&ndash; Página %s"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/archive-product.php:104
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/loop-shop.php:38
+msgid "No products found which match your selection."
+msgstr "No hemos encontrado productos con tu selección."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:38
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Calificado %s de 5"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:38
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/review.php:24
+msgid "out of 5"
+msgstr "de 5"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:46
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/tabs/tab-reviews.php:11
+msgid "Reviews"
+msgstr "Valoraciones"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:62
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Anterior"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:63
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Siguiente <span class=\"meta-nav\">&rarr;</span>"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:67
+msgid "Add Review"
+msgstr "Añadir valoración"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr "Añadir una valoración"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:73
+msgid "Be the first to review"
+msgstr "Sé el primero en valorar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:75
+msgid ""
+"There are no reviews yet, would you like to <a href=\"#review_form\" class="
+"\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+"Aún no hay commentaries, te gustaría <a href=\"#review_form\" class=\"inline "
+"show_review_form\">subir el tuyo</a>?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:90
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:67
+msgid "Email"
+msgstr "E-mail"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:93
+msgid "Submit Review"
+msgstr "Enviar opinión"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:100
+msgid "Rating"
+msgstr "Calificación"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:101
+msgid "Rate&hellip;"
+msgstr "Calificar&hellip;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:102
+msgid "Perfect"
+msgstr "Perfecto"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:103
+msgid "Good"
+msgstr "Bueno"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:104
+msgid "Average"
+msgstr "Ni bueno ni malo"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:105
+msgid "Not that bad"
+msgstr "No está tan mal"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:106
+msgid "Very Poor"
+msgstr "Muy pobre"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product-reviews.php:111
+msgid "Your Review"
+msgstr "Su opinión"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:22
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-pay.php:17
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:19
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:23
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-completed-order.php:23
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-invoice.php:27
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:27
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-processing-order.php:23
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:18
+msgid "Product"
+msgstr "Producto"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:23
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:25
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-completed-order.php:25
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-invoice.php:29
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:29
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-processing-order.php:25
+msgid "Price"
+msgstr "Precio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:24
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:24
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-completed-order.php:24
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-invoice.php:28
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:28
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-processing-order.php:24
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:25
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:33
+msgid "Total"
+msgstr "Total"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:41
+msgid "Remove this item"
+msgstr "Eliminar éste item"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:66
+msgid "Available on backorder"
+msgstr "Disponible en stock"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:116
+msgid "Coupon"
+msgstr "Cupón"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:116
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-coupon.php:24
+msgid "Apply Coupon"
+msgstr "Aplicar cupón"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:123
+msgid "Update Cart"
+msgstr "Actualizar carrito"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cart.php:123
+msgid "Proceed to Checkout &rarr;"
+msgstr "Realizar el pago &rarr;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/cross-sells.php:33
+msgid "You may be interested in&hellip;"
+msgstr "Quizá puede interesarte&hellip;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/empty.php:11
+msgid "Your cart is currently empty."
+msgstr "Tu carrito está vacío."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/empty.php:15
+msgid "&larr; Return To Shop"
+msgstr "&larr; Volver a la tienda"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/mini-cart.php:50
+msgid "No products in the cart."
+msgstr "No hay productos en el carrito."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/mini-cart.php:58
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:146
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/mini-cart.php:63
+msgid "View Cart &rarr;"
+msgstr "Ver carrito &rarr;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/mini-cart.php:64
+msgid "Checkout &rarr;"
+msgstr "Realizar pago &rarr;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/shipping-calculator.php:18
+msgid "Calculate Shipping"
+msgstr "Calcular envío"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/shipping-calculator.php:22
+msgid "Select a country&hellip;"
+msgstr "Selecciona una ciudad&hellip;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/shipping-calculator.php:48
+msgid "Select a state&hellip;"
+msgstr "Seleccionar un estado&hellip;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/shipping-calculator.php:59
+msgid "State"
+msgstr "Estado"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/shipping-calculator.php:67
+msgid "Postcode/Zip"
+msgstr "Código postal"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/shipping-calculator.php:67
+msgid "Postcode"
+msgstr "Código postal"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/shipping-calculator.php:70
+msgid "Update Totals"
+msgstr "Actualizar totales"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:20
+msgid "Cart Totals"
+msgstr "Total del carrito"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:25
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:27
+msgid "Cart Subtotal"
+msgstr "Subtotal del carrito"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:32
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:34
+msgid "Cart Discount"
+msgstr "Descuento del carrito"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:32
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:195
+msgid "[Remove]"
+msgstr "[Eliminar]"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:41
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:45
+msgid "Shipping"
+msgstr "Envío"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:104
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+"Por favor, introduce tus datos para ver los métodos de envío disponibles."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:106
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:111
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Disculpa, parece que los métodos de envío no están disponibles en tu estado. "
+"Por favor contacta con nosotros si necesitas asistencia o quieres buscar "
+"otras alternativas."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:132
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:159
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:138
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:162
+msgid "incl.&nbsp;"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:174
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:184
+msgid "Tax"
+msgstr "Impuesto"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:195
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:196
+msgid "Order Discount"
+msgstr "Descuento del pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:202
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:205
+msgid "Order Total"
+msgstr "Total pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:220
+#, php-format
+msgid "(taxes estimated for %s)"
+msgstr "(impuestos aproximados por %s)"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:222
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+"Nota: El envío y los impuestos son estimados %s y pueden actualizarse "
+"durante el proceso de facturación y envío."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:232
+msgid ""
+"No shipping methods were found; please recalculate your shipping and enter "
+"your state/county and zip/postcode to ensure their are no other available "
+"methods for your location."
+msgstr ""
+"No se han encontrado métodos de envío, por favor, vuelve a calcular tu envío "
+"e introduce tu estado y código postal para comprobar si hay otros métodos "
+"disponibles para tu ubicación."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:239
+#, php-format
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your "
+"location (%s)."
+msgstr ""
+"Disculpa, parece que los métodos de envío no están disponibles para tu "
+"ubicación (%s)."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/cart/totals.php:241
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+"Si necesitas asistencia o quieres probar otra alternativa, por favor, ponte "
+"en contacto con nosotros."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/cart-errors.php:13
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+"Hay algunos problemas con los artículos de tu carrito. Por favor, vaya a la "
+"página de compra y resuelve estos problemas antes de realizar el pago."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/cart-errors.php:17
+msgid "&larr; Return To Cart"
+msgstr "&larr; Volver al carrito"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr "Facturación &amp; Envío"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-billing.php:19
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-edit-address.php:25
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-address.php:24
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:106
+msgid "Billing Address"
+msgstr "Dirección de facturación"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-billing.php:38
+msgid "Create an account?"
+msgstr "¿Crear una cuenta?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-billing.php:47
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"Crear una cuenta introduciendo la siguiente información. Si ya eres cliente, "
+"por favor, dirígete a la sección LOGIN en la parte superior de la página."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-checkout.php:19
+msgid "You must be logged in to checkout."
+msgstr "Debes estar loqueado para realizar el pago."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-checkout.php:50
+msgid "Your order"
+msgstr "Tu pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-coupon.php:12
+msgid "Have a coupon?"
+msgstr "¿Tienes un cupón?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-coupon.php:15
+msgid "Click here to enter your code"
+msgstr "Click aquí para introducir su código"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-coupon.php:20
+msgid "Coupon code"
+msgstr "Código cupón"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-login.php:13
+msgid "Already registered?"
+msgstr "¿Ya estás registrado?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-login.php:16
+msgid "Click here to login"
+msgstr "Click aquí para entrar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-login.php:18
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"Si has comprado con nosotros antes, por favor, introduce tus datos en las "
+"siguientes casillas. Si eres un cliente nuevo, por favor, vaya a la sección "
+"de facturación y envío."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-pay.php:18
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:20
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:19
+msgid "Qty"
+msgstr "Cantidad"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-pay.php:19
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:21
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:20
+msgid "Totals"
+msgstr "Total"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-pay.php:75
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Disculpa, parece que no existen métodos de pago disponibles en su localidad. "
+"Por favor, ponte en contacto con nosotros si necesitas ayuda o quieres "
+"probar otra alternativa."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-pay.php:84
+msgid "Pay for order"
+msgstr "Pagar por el pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-shipping.php:30
+msgid "Ship to billing address?"
+msgstr "¿Enviar a la dirección de facturación?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-shipping.php:33
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-edit-address.php:25
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-address.php:55
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:121
+msgid "Shipping Address"
+msgstr "Dirección de envío"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/form-shipping.php:57
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/tabs/attributes.php:18
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/tabs/tab-attributes.php:16
+msgid "Additional Information"
+msgstr "Información adicional"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:109
+msgid "Please fill in your details above to see available shipping methods."
+msgstr "Porfavor, introduce tus datos para visualizar los métodos de envío."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:150
+msgid "Order Subtotal"
+msgstr "Subtotal del pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:268
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+"Porfavor, introduce tus datos para visualizar los métodos de pago "
+"disponibles."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:270
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Disculpa, parece que no están disponibles los métodos de pago para su "
+"estado. Porfavor, ponte en contacto con nosotros si necesitas ayuda o "
+"quieres probar otra alternativa."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:280
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+"Su navegador aún no soporta Javascript o está deshabitado, porfavor, "
+"asegúrate de hacer click en <em>Actualizar totales</em> antes de realizar tu "
+"pedido. Se le podría cobrar más de la cantidad indicada si no lo hace."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:280
+msgid "Update totals"
+msgstr "Actualizar el total"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:286
+msgid "Place order"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:290
+msgid "I accept the"
+msgstr "Acepto la"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/review-order.php:290
+msgid "terms &amp; conditions"
+msgstr "términos &amp; condiciones"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+"Desafortunadamente tu pedido no ha sido procesado ya que el banco ha "
+"declinado tu transacción."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "Por favor intenta de nuevo tu compra o dirígete a tu cuenta."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr "Por favor intenta de nuevo tu compra."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:29
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:61
+msgid "Pay"
+msgstr "Pagar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:31
+msgid "My Account"
+msgstr "Mi cuenta"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:37
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:70
+msgid "Thank you. Your order has been received."
+msgstr "Muchas gracias. Tu pedido ha sido recibido."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:41
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:18
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-completed-order.php:18
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-invoice.php:22
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:22
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-processing-order.php:18
+msgid "Order:"
+msgstr "Pedido:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:45
+msgid "Date:"
+msgstr "Fecha:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:49
+msgid "Total:"
+msgstr "Total:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/checkout/thankyou.php:54
+msgid "Payment method:"
+msgstr "Método de pago:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:14
+msgid "You have received an order from"
+msgstr "Has recibido un pedido desde"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:14
+msgid ". Their order is as follows:"
+msgstr ". Tu pedido es el siguiente:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:18
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-invoice.php:22
+msgid "jS F Y"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:49
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-completed-order.php:49
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:53
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-processing-order.php:49
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:88
+msgid "Customer details"
+msgstr "Detalles del cliente"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:52
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-completed-order.php:52
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:56
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-processing-order.php:52
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:92
+msgid "Email:"
+msgstr "E-mail:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/admin-new-order.php:55
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-completed-order.php:55
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:59
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-processing-order.php:55
+msgid "Tel:"
+msgstr "Tel.:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-completed-order.php:14
+msgid "Your order is complete. Your order's details are below:"
+msgstr "Tu pedido se ha completado. Los detalles de tu pedido a continuación:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-invoice.php:16
+#, php-format
+msgid ""
+"An order has been created for you on &ldquo;%s&rdquo;. To pay for this order "
+"please use the following link: <a href=\"%s\">Pay</a>"
+msgstr ""
+"La orden ha sido creada por tí en &ldquo;%s&rdquo;. Para realizar el pago de "
+"ésta orden porfavor usa el siguiente link: <a href=\"%s\">Pago</a>"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-new-account.php:14
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+"Gracias por crear una cuenta en %s. Tu nombre de usuario es <strong>%s</"
+"strong>."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-new-account.php:16
+#, php-format
+msgid "You can access your account area here: %s."
+msgstr "Puedes entrar en tu cuenta aquí: %s."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:14
+msgid "Hello, a note has just been added to your order:"
+msgstr "Hola, se ha añadido una nueva nota en tu pedido:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-note.php:18
+msgid "For your reference, your order details are shown below."
+msgstr ""
+"Para tu referencia, los detalles de tu pedido los mostramos a continuación."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/customer-processing-order.php:14
+msgid ""
+"Thank you, we are now processing your order. Your order's details are below."
+msgstr ""
+"Muchas gracias, estamos procesando tu pedido. Los detalles de tu pedido se "
+"muestran a continuación."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/email-addresses.php:16
+msgid "Billing address"
+msgstr "Dirección de facturación"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/email-addresses.php:26
+msgid "Shipping address"
+msgstr "Dirección de envío"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/emails/email-order-items.php:35
+msgid "Download:"
+msgstr "Descargar:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/loop/sorting.php:15
+msgid "Default sorting"
+msgstr "Orden por defecto"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/loop/sorting.php:16
+msgid "Sort alphabetically"
+msgstr "Ordenar alfabéticamente"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/loop/sorting.php:17
+msgid "Sort by most recent"
+msgstr "Ordenar por el más reciente"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/loop/sorting.php:18
+msgid "Sort by price"
+msgstr "Ordenar por precio"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-change-password.php:18
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-change-password.php:22
+msgid "Re-enter new password"
+msgstr "Re-escribe la nueva contraseña"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-change-password.php:27
+msgid "Save"
+msgstr "Guardar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-edit-address.php:40
+msgid "Save Address"
+msgstr "Guardar dirección"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:24
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:38
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/form-login.php:29
+msgid "Login"
+msgstr "Login"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:27
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/form-login.php:18
+msgid "Username or email"
+msgstr "Usuario o e-mail"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:39
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/form-login.php:31
+msgid "Lost Password?"
+msgstr "¿Has perdido tu contraseña?"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:49
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:90
+msgid "Register"
+msgstr "Registro"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/form-login.php:78
+msgid "Re-enter password"
+msgstr "Re-escribe la contraseña"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-account.php:15
+#, php-format
+msgid ""
+"Hello, <strong>%s</strong>. From your account dashboard you can view your "
+"recent orders, manage your shipping and billing addresses and <a href=\"%s"
+"\">change your password</a>."
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-account.php:20
+msgid "Available downloads"
+msgstr "Descargas disponibles"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-account.php:28
+msgid "Recent Orders"
+msgstr "Últimos pedidos"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-account.php:31
+msgid "My Address"
+msgstr "Mi dirección"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-account.php:32
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+"Las siguientes direcciones se pueden utilizar por defecto en la página de "
+"pago."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-address.php:25
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-address.php:56
+msgid "Edit"
+msgstr "Editar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-address.php:43
+msgid "You have not set up a billing address yet."
+msgstr "Aún no has configurado una dirección de facturación."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-address.php:74
+msgid "You have not set up a shipping address yet."
+msgstr "Aún no has configurado una dirección de envío."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:31
+msgid "Order"
+msgstr "Pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:32
+msgid "Ship to"
+msgstr "Enviar a"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:55
+msgid "Click to cancel this order"
+msgstr "Click para cancelar éste pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:55
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:64
+msgid "View"
+msgstr "Ver"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/myaccount/my-orders.php:76
+msgid "You have no recent orders."
+msgstr "No tienes pedidos recientes."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/form-tracking.php:15
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+"Para poder realizar el seguimiento de su pedido, por favor ingrese su ID de "
+"pedido en la casilla de abajo y pulse retorno. Esta ID se la dimos en el "
+"recibo y en e-mail de confirmación que debería haber recibido."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/form-tracking.php:17
+msgid "Order ID"
+msgstr "ID Pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/form-tracking.php:17
+msgid "Found in your order confirmation email."
+msgstr "Se encuentra en el e-mail de confirmación de pedido."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/form-tracking.php:18
+msgid "Billing Email"
+msgstr "E-mail de facturación"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/form-tracking.php:18
+msgid "Email you used during checkout."
+msgstr "E-mail que utilizaste durante el pago."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/form-tracking.php:21
+msgid "Track\""
+msgstr "Rastrear\""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:14
+msgid "Order Details"
+msgstr "Detalles del pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:58
+msgid "Download file &rarr;"
+msgstr "Descargar archivo &rarr;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:81
+msgid "Order Again"
+msgstr "Pedido de nuevo"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:93
+msgid "Telephone:"
+msgstr "Teléfono:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:110
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/order-details.php:125
+msgid "N/A"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/tracking.php:16
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/tracking.php:16
+msgid "ago"
+msgstr "hace"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/tracking.php:18
+msgid "and was completed"
+msgstr "y se completó"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/tracking.php:18
+msgid " ago"
+msgstr " hace"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/order/tracking.php:29
+msgid "Order Updates"
+msgstr "Actualizar pedido"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/breadcrumb.php:65
+msgid "Products tagged &ldquo;"
+msgstr "Productos etiquetados &ldquo;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/breadcrumb.php:148
+msgid "Error 404"
+msgstr "Error 404"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/breadcrumb.php:194
+msgid "Posts tagged &ldquo;"
+msgstr "Posts etiquetados &ldquo;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/shop/breadcrumb.php:199
+msgid "Author:"
+msgstr "Autor:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/meta.php:15
+msgid "SKU:"
+msgstr "SKU:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/meta.php:18
+msgid "Category:"
+msgstr "Categoría:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/meta.php:20
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/product-attributes.php:26
+msgid "Weight"
+msgstr "Peso"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/related.php:40
+msgid "Related Products"
+msgstr "Productos relacionados"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/review.php:28
+msgid "Your comment is awaiting approval"
+msgstr "Tu comentario está en espera de ser aprobado."
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/review.php:35
+msgid "verified owner"
+msgstr "propietario verificado"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/review.php:37
+msgid "M jS Y"
+msgstr ""
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/up-sells.php:31
+msgid "You may also like&hellip;"
+msgstr "También te puede gustar&hellip;"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/add-to-cart/grouped.php:47
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/add-to-cart/grouped.php:77
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/add-to-cart/simple.php:37
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/add-to-cart/variable.php:65
+msgid "Add to cart"
+msgstr "Añadir al carrito"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/add-to-cart/variable.php:25
+msgid "Choose an option"
+msgstr "Escoge una opción"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/add-to-cart/variable.php:51
+msgid "Clear selection"
+msgstr "Borrar selección"
+
+#: C:\wamp\www\test\wp-content\themes\kallyas/woocommerce/single-product/tabs/tab-description.php:13
+msgid "Description"
+msgstr "Descripción"
