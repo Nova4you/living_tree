@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+.search_bar_bg{
+	background-color: #BA2B2E;
+    background-image: url("./map_mask.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#mapCont{
+	
+    width:260px;
+    height:232px;
+}
+#city_select_scroller {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    height: 210px;
+    margin-right: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 5px;
+}

@@ -116,5 +116,6 @@ global $data;
     <a href="#" id="totop"><?php echo __('TOP', THEMENAME ); ?></a> <?php // Translate ?>
 
 <?php wp_footer(); ?>
+<script type='text/javascript' src='http://code.jquery.com/ui/1.10.1/jquery-ui.js'></script>
 </body>
 </html>
