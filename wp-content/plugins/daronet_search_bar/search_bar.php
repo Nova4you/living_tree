@@ -67,7 +67,7 @@ class SearchBar{
         </div>
     </form>
 </div>
-<div id="second_form" style="display:none;">
+<div id="second_form" class="row" style="display:none;">
 	<div id="city_select_scroller" class="span2"></div>					
 	<div class="span6">
 	<h2>Australia Family &amp; Kids Portal</h2><br>
