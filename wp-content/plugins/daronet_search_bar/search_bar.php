@@ -52,7 +52,7 @@ class SearchBar{
     <form method="post" action="'.get_bloginfo('siteurl').'/search">
         <div class="controls row">
              <input name="where" type="text" class="required span6" value="" id="autocomplete_input_pick_up" placeholder="e.g. City or Postcode" />
-        	 <button type="submit" class="btn btn-danger span2">
+        	 <button type="submit" class="btn btn-danger span1">
                     Search
              </button>
 		</div>
