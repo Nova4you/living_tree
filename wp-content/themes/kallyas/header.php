@@ -96,12 +96,12 @@
 							
 									// Breadcrumbs check
 									if ( isset ( $data['def_header_bread'] ) && !empty ( $data['def_header_bread'] ) ) {
-										zn_breadcrumbs();
+										//zn_breadcrumbs();
 									}
 									
 									// Date check
 									if ( isset ( $data['def_header_date'] ) && !empty ( $data['def_header_date'] ) ) {
-										echo '<span id="current-date">'.date("l M d, Y").'</span>';
+										//echo '<span id="current-date">'.date("l M d, Y").'</span>';
 									}
 									
 								?>
