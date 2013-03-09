@@ -2,7 +2,7 @@
 /*
  Plugin Name: Business Form
 Plugin URI: http://www.daronet.com.au
-Description: Generate a business registration form.
+Description: Generate a business registration form. Shortcode: [business_form top_categories="1,2,3,4" action="action_name"]
 Version: 1.00
 Author: Justin Wang
 Author URI: http://www.daronet.com.au
@@ -18,6 +18,8 @@ class BusinessForm{
 	private $cats_in_array = array();
 	
 	private $default_form_elements = null;
+	
+	private $action = '#';
 	
 	function __construct() {
 		if (is_admin()) {
@@ -41,29 +43,39 @@ class BusinessForm{
 	}
 	
 	private function _output(){
-		$form = '<form class="form-horizontal">';
+		$form = '<form class="form-horizontal" enctype="multipart/form-data" method="post" action="">';
 		
 		if ($this->default_form_elements) {
 			foreach ($this->default_form_elements as $key => $fieldset) {
 				$new_fieldset = '<fieldset><legend>'.$fieldset['fieldset_name'].'</legend>';
 				foreach ($fieldset['elements'] as $name => $element) {
-					$input = '<div class="row-fluid"><label>'.$element['label'].( ($element['required'])?' <b style="color:#CD2122;">*</b>':NULL ).'</label>';
+					$input = '<div class="row-fluid">';
+					$label = '<label>'.$element['label'].( ($element['required'])?' <b style="color:#CD2122;">*</b>':NULL ).'</label>';
 					if ($element['input_type'] == 'text') {
-						$input .= '<input type="text" name="'.$name.'" class="span8" placeholder="'.$element['label'].'" id="input'.$name.'">';
+						$input .= $label .'<input type="text" name="'.$name.'" class="span8" placeholder="'.$element['label'].'" id="input'.$name.'">';
 					}else if($element['input_type'] == 'options'){
-						$input .= '<select name="'.$name.'" class="span8" id="input'.$name.'">'.$element['options'].'</select>';
+						$input .= $label .'<select name="'.$name.'" class="span8" id="input'.$name.'">'.$element['options'].'</select>';
 					}else if($element['input_type'] == 'textarea'){
-						$input .= '<textarea class="span8" name="'.$name.'" rows="6"></textarea>';
+						$input .= $label .'<textarea class="span8" name="'.$name.'" rows="6"></textarea>';
 					}else if($element['input_type'] == 'password'){
-						$input .= '<input type="password" name="'.$name.'" class="span8" placeholder="'.$element['label'].'" id="input'.$name.'">';
+						$input .= $label .'<input type="password" name="'.$name.'" class="span8" placeholder="'.$element['label'].'" id="input'.$name.'">';
+					}elseif ($element['input_type'] == 'file'){
+						$input .= $label .'<input type="file" name="'.$name.'">';
+					}elseif ($element['input_type'] == 'captcha'){
+						$label = '<label>'.$element['label'].( ($element['required'])?' "<b style="color:blue;">ABC 123</b>" <b style="color:#CD2122;">*</b>':NULL ).'</label>';
+						$input .= $label.'<input type="text" name="'.$name.'" class="span4" id="input'.$name.'">';
+					}elseif ($element['input_type'] == 'checkbox'){
+						$input .= '<label class="checkbox"><input '.($element['required']?'checked':NULL).' type="checkbox" name="'.$name.'"> '.$element['label'].'</label>';
 					}
-					$new_fieldset .= $input.'</div>';
+					$new_fieldset .= $input .'</div>';
 				}
 				$form .= $new_fieldset.'</fieldset>';
 			}
 		}
 		
-		return $form.'</form>'.$this->_generate_child_category_select_in_html($this->cats_in_array);
+		$submit_button = '<p style="float:right;"><button class="btn btn-large btn-danger" type="submit">Submit</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-large" type="reset">Reset</button></p>';
+		
+		return $form.'</form>'.$submit_button.$this->_generate_child_category_select_in_html($this->cats_in_array);
 	}
 	
 	
@@ -94,6 +106,10 @@ class BusinessForm{
 	
 	private function _parse_categories($_atts){
 		if($_atts AND is_array($_atts)){
+			if (isset($_atts['action'])) {
+				$this->action = $_atts['action'];
+			}
+			
 			$cats = $this->_get_top_category_in_array_format($_atts['top_categories']);
 			$cats_in_array = array();
 			//echo '<pre>';
@@ -253,8 +269,7 @@ class BusinessForm{
 										'required'=>TRUE,
 										'options'=>'<option value="">Please select ...</option>'
 								)
-						),
-						'seperator'=>true
+						)
 				),
 				array(
 						'fieldset_name'=>'Please upload 3 pictures of your business',
@@ -274,8 +289,7 @@ class BusinessForm{
 										'input_type'=>'file',
 										'required'=>FALSE
 								),
-						),
-						'seperator'=>true
+						)
 				),
 				array(
 						'fieldset_name'=>'Registration',
@@ -323,12 +337,12 @@ class BusinessForm{
 								'reg_unit_no'=>array(
 										'label'=>'Unit No.',
 										'input_type'=>'text',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'reg_street_no'=>array(
 										'label'=>'Street No.',
 										'input_type'=>'textarea',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'reg_street_name'=>array(
 										'label'=>'Street name',
@@ -358,11 +372,40 @@ class BusinessForm{
 								),
 								'captcha'=>array(
 										'label'=>'Type the code below:',
-										'input_type'=>'text',
+										'input_type'=>'captcha',
 										'required'=>TRUE
+								),
+								'send_me_update'=>array(
+										'label'=>'Send me updates by email',
+										'input_type'=>'checkbox',
+										'required'=>FALSE,
+								),
+						)
+				),
+				array(
+						'fieldset_name'=>'Terms',
+						'elements'=>array(
+								'terms'=>array(
+										'label'=>'I read & accept Terms &amp; Conditions',
+										'input_type'=>'checkbox',
+										'required'=>TRUE,
+								),
+								'is_owner'=>array(
+										'label'=>'I hereby represent and warrant that I am the owner of the property and not acting as an agent (or similar) of the owner.',
+										'input_type'=>'checkbox',
+										'required'=>TRUE,
 								)
-						),
-						'seperator'=>true
+						)
+				),
+				array(
+						'fieldset_name'=>'Post your business on site',
+						'elements'=>array(
+								'on_site_now'=>array(
+										'label'=>'Click here to post your business on site',
+										'input_type'=>'checkbox',
+										'required'=>FALSE,
+								)
+						)
 				)
 		);
 	}
