@@ -149,6 +149,13 @@ jQuery(document)
 							return false;
 						});
 }
+					
+					jQuery("#switch_to_first_form").click(function(){
+						jQuery("#first_form").show(500);
+						jQuery("#second_form").hide(500);
+						return false;
+					});
+					
 // 自动补全pick up
 jQuery("#autocomplete_input_pick_up")
 .autocomplete(
