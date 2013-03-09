@@ -2,7 +2,7 @@
 /*
  Plugin Name: Business Form
 Plugin URI: http://www.daronet.com.au
-Description: Search bar with auto completed location field and categories.
+Description: Generate a business registration form.
 Version: 1.00
 Author: Justin Wang
 Author URI: http://www.daronet.com.au
@@ -41,19 +41,23 @@ class BusinessForm{
 	}
 	
 	private function _output(){
-		$form = '<form>';
+		$form = '<form class="form-horizontal">';
 		
 		if ($this->default_form_elements) {
 			foreach ($this->default_form_elements as $key => $fieldset) {
 				$new_fieldset = '<fieldset><legend>'.$fieldset['fieldset_name'].'</legend>';
 				foreach ($fieldset['elements'] as $name => $element) {
-					$input = '<label>'.$element['label'].( ($element['required'])?'<b style="color:#CD2122;">*</b>':NULL ).'</label>';
+					$input = '<div class="row-fluid"><label>'.$element['label'].( ($element['required'])?' <b style="color:#CD2122;">*</b>':NULL ).'</label>';
 					if ($element['input_type'] == 'text') {
-						$input .= '<input type="text" name="'.$name.'" placeholder="'.$element['label'].'" id="input'.$name.'">';
-					}else if($element['input_type'] = 'options'){
-						$input .= $element['options'];
+						$input .= '<input type="text" name="'.$name.'" class="span8" placeholder="'.$element['label'].'" id="input'.$name.'">';
+					}else if($element['input_type'] == 'options'){
+						$input .= '<select name="'.$name.'" class="span8" id="input'.$name.'">'.$element['options'].'</select>';
+					}else if($element['input_type'] == 'textarea'){
+						$input .= '<textarea class="span8" name="'.$name.'" rows="6"></textarea>';
+					}else if($element['input_type'] == 'password'){
+						$input .= '<input type="password" name="'.$name.'" class="span8" placeholder="'.$element['label'].'" id="input'.$name.'">';
 					}
-					
+					$new_fieldset .= $input.'</div>';
 				}
 				$form .= $new_fieldset.'</fieldset>';
 			}
@@ -85,15 +89,7 @@ class BusinessForm{
 			$top_categories_options_html .= '<option value="'.$value['id'].'">'.$value['name'].'</option>';
 		}
 		
-		return '<div class="controls row">
-                <select name="top_category_id" class="span4" id="top_category_id">
-                    <option value="">All Categories</option>
-				'.$top_categories_options_html.'
-                </select>
-                <select name="child_category_id" class="span4" id="child_category_id">
-                    <option value="">All Subcategories</option>
-                </select>
-        </div>';
+		return '<option value="">All Categories</option>'.$top_categories_options_html;
 	}
 	
 	private function _parse_categories($_atts){
@@ -148,6 +144,17 @@ class BusinessForm{
 		));
 	}
 	
+	private function _get_states_in_options_html(){
+		$states = array(
+			'Please choose ...', 'VIC','NSW','WA','SA','QLD','TAS','ACT','NT'	
+		);
+		$options = '';
+		foreach ($states as $key=>$value) {
+			$options .= '<option value="'.$key.'">'.$value.'</option>';
+		}
+		return $options;
+	}
+	
 	private function _init_elements(){
 		$this->default_form_elements = array(
 				array(
@@ -161,35 +168,34 @@ class BusinessForm{
 								'description'=>array(
 										'label'=>'Brief Description',
 										'input_type'=>'textarea',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'account_manager'=>array(
 										'label'=>'Account Manager',
 										'input_type'=>'text',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'email'=>array(
 										'label'=>'Email',
 										'input_type'=>'text',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'telephone'=>array(
 										'label'=>'Telephone',
 										'input_type'=>'text',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'opening_hours'=>array(
 										'label'=>'Opening hours',
 										'input_type'=>'text',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'website'=>array(
 										'label'=>'Website',
 										'input_type'=>'text',
-										'required'=>TRUE
+										'required'=>FALSE
 								)
-						),
-						'seperator'=>true
+						)
 				),
 				array(
 						'fieldset_name'=>'Where is your business trading location?',
@@ -197,12 +203,12 @@ class BusinessForm{
 								'unit_no'=>array(
 										'label'=>'Unit No.',
 										'input_type'=>'text',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'street_no'=>array(
 										'label'=>'Street No.',
 										'input_type'=>'textarea',
-										'required'=>TRUE
+										'required'=>FALSE
 								),
 								'street_name'=>array(
 										'label'=>'Street name',
@@ -223,15 +229,14 @@ class BusinessForm{
 										'label'=>'State',
 										'input_type'=>'options',
 										'required'=>TRUE,
-										'options'=>array()
+										'options'=>$this->_get_states_in_options_html()
 								),
 								'postcode'=>array(
 										'label'=>'Postcode',
 										'input_type'=>'text',
 										'required'=>TRUE
 								)
-						),
-						'seperator'=>true
+						)
 				),
 				array(
 						'fieldset_name'=>'Please select your main trading business category',
@@ -344,7 +349,7 @@ class BusinessForm{
 										'label'=>'State',
 										'input_type'=>'options',
 										'required'=>TRUE,
-										'options'=>array()
+										'options'=>$this->_get_states_in_options_html()
 								),
 								'reg_postcode'=>array(
 										'label'=>'Postcode',
