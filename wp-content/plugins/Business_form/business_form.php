@@ -43,7 +43,7 @@ class BusinessForm{
 	}
 	
 	private function _output(){
-		$form = '<form class="form-horizontal" enctype="multipart/form-data" method="post" action="">';
+		$form = '<form class="form-horizontal" enctype="multipart/form-data" method="post" action="'.get_bloginfo('siteurl').'/'.$this->action.'">';
 		
 		if ($this->default_form_elements) {
 			foreach ($this->default_form_elements as $key => $fieldset) {
@@ -75,7 +75,7 @@ class BusinessForm{
 		
 		$submit_button = '<p style="float:right;"><button class="btn btn-large btn-danger" type="submit">Submit</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-large" type="reset">Reset</button></p>';
 		
-		return $form.'</form>'.$submit_button.$this->_generate_child_category_select_in_html($this->cats_in_array);
+		return $form.$submit_button.'</form>'.$this->_generate_child_category_select_in_html($this->cats_in_array);
 	}
 	
 	
