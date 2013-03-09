@@ -6,7 +6,6 @@
 			<div id="mainbody">
 				
 				<div class="row">
-				
 				<?php
 				
 					// Here will check if sidebar is enabled
@@ -66,10 +65,6 @@
 											<h3 class="itemTitle">
 												<a href="<?php the_permalink(); ?>" class="pages-blogitem.html"><?php the_title();?></a>
 											</h3>
-											<div class="post_details">
-												<span class="catItemDateCreated"><span class="icon-calendar"></span> <?php the_time('l, d, F , Y');?></span>
-												<span class="catItemAuthor"><?php echo __( 'by', THEMENAME );?> <?php the_author_posts_link(); ?></span>
-											</div><!-- end post details -->
 										</div><!-- end itemHeader -->
 								
 										<div class="itemBody">
