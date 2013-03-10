@@ -10,6 +10,7 @@ Author URI: http://www.daronet.com.au
 
 //wp_enqueue_script("jquery");
 //wp_enqueue_script('jquery-ui-tabs');
+wp_enqueue_script('bootstrap-carousel',plugins_url('/js/bootstrap-carousel.js', __FILE__),array(),FALSE,TRUE);
 wp_enqueue_script('business_form_utils',plugins_url('/js/business_form_utils.js', __FILE__),array(),FALSE,TRUE);
 
 class BusinessForm{
@@ -166,7 +167,11 @@ class BusinessForm{
 		);
 		$options = '';
 		foreach ($states as $key=>$value) {
-			$options .= '<option value="'.$key.'">'.$value.'</option>';
+			if ($key>0) {
+				$options .= '<option value="'.$value.'">'.$value.'</option>';
+			}else{
+				$options .= '<option value="">'.$value.'</option>';
+			}
 		}
 		return $options;
 	}
@@ -223,7 +228,7 @@ class BusinessForm{
 								),
 								'street_no'=>array(
 										'label'=>'Street No.',
-										'input_type'=>'textarea',
+										'input_type'=>'text',
 										'required'=>FALSE
 								),
 								'street_name'=>array(
@@ -341,7 +346,7 @@ class BusinessForm{
 								),
 								'reg_street_no'=>array(
 										'label'=>'Street No.',
-										'input_type'=>'textarea',
+										'input_type'=>'text',
 										'required'=>FALSE
 								),
 								'reg_street_name'=>array(

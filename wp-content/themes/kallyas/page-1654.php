@@ -4,18 +4,70 @@ function form_validation($form_data){
 	return TRUE;
 }
 
-function make_content(){
+function make_content($images = array()){
 	$content = '';
+	$carousel = '';
 	
+	foreach ($images as $key=>$value) {
+		$carousel .= '<div class="item'.(($key==0)?' active':NULL).'"><img alt="" src="'.$value.'"></div>';
+	}
+	
+	$content .= '
+	<div class="row-fluid">
+		<div class="span3">
+		    <div id="myCarousel" class="carousel slide">
+		    <div class="carousel-inner">
+			    '.$carousel.'
+		    </div>
+		    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		    </div>		
+		</div>
+		<div class="span9">
+	<address><strong>'.$_POST['business_name'].'</strong><br>'.
+	(empty($_POST['reg_unit_no'])?NULL:($_POST['reg_unit_no'].'/')).''.
+    (empty($_POST['reg_street_no'])?NULL:($_POST['reg_street_no'].' ')).
+    (empty($_POST['reg_street_name'])?NULL:$_POST['reg_street_name']).'<br>'.
+    (empty($_POST['reg_suburb'])?NULL:($_POST['reg_suburb'].' ') ).
+    (empty($_POST['reg_state'])?NULL:($_POST['reg_state'].' ') ).
+    (empty($_POST['reg_postcode'])?NULL:($_POST['reg_postcode'].' ') ).
+    (empty($_POST['reg_country'])?NULL:$_POST['reg_country']).
+    '<br>
+    <abbr title="Phone">P:</abbr>'.(empty($_POST['telephone'])?'N.A':$_POST['telephone']).'
+    </address>
+     
+    <address>
+    <strong>'.(empty($_POST['first_name'])?'N.A':$_POST['first_name']).' '.(empty($_POST['last_name'])?'N.A':$_POST['last_name']).'</strong><br>
+    <a href="mailto:'.(empty($_POST['email'])?NULL:$_POST['email']).'">'.(empty($_POST['email'])?NULL:$_POST['email']).'</a><br>
+    <a href="'.(empty($_POST['website'])?'#':$_POST['website']).'" target="_blank">'.(empty($_POST['website'])?'N.A':$_POST['website']).'</a>
+    </address>
+    <address>
+    <strong>Opening Hourse: '.(empty($_POST['opening_hours'])?'N.A':$_POST['opening_hours']).'</strong><br>
+    </address>
+    <hr>
+    <p>'.$_POST['description'].'</p></div></div>';
 	
 	return $content;
 }
 
 function add_new_business_post_page($business){
+	//check how many images uploaded
+	$images = array();
+	for ($i = 1; $i < 4; $i++) {
+		if (isset($business['image'.$i]) && strlen(isset($business['image'.$i]))>0 ) {
+			$images[] = $business['image'.$i];
+		}
+	}
+	
+	if ( count($images)==0 ) {
+		$images[] = get_bloginfo('siteurl').'/Default.jpg';
+	}
+	
+	
 	// Create post object
 	$my_post = array(
 			'post_title'    => $business['business_name'],
-			'post_content'  => make_content(),
+			'post_content'  => make_content($images),
 			'post_status'   => $business['on_site_now'],
 			'post_author'   => 1,
 			'post_category' => array($business['main_category'],$business['child_category'])
@@ -85,14 +137,16 @@ if (form_validation($_POST)) {
 			$_POST['on_site_now'] = 'private';
 		}
 		add_new_business_post_page($_POST);
-		//wp_redirect( home_url().'/business-register-success' );
+		wp_redirect( home_url().'/business-register-success' );
 	}else{
 		//can not save in database
-		//wp_redirect( home_url().'/business-register-failed' );
+		wp_redirect( home_url().'/business-register-failed' );
 	}
 }else{
 	//Form validate failed
 }
+/*
 echo '<pre>';
 var_dump($_FILES);
 echo '</pre>';
+*/
