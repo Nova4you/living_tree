@@ -73,8 +73,8 @@ function add_new_business_post_page($business){
 			'post_category' => array($business['main_category'],$business['child_category'])
 	);
 	
-	// Insert the post into the database
-	wp_insert_post( $my_post ,TRUE);
+	// Insert the post into the database and return the post ID
+	return wp_insert_post( $my_post ,TRUE);
 }
 
 function save_images($images_data){
@@ -125,18 +125,20 @@ if (form_validation($_POST)) {
 	unset($_POST['password_confirm']);
 	unset($_POST['terms']);
 	$table_name = 'business_info';
-	
 	save_images($_FILES);
 	
-	if ($wpdb->insert($table_name, $_POST)) {
-		//Save in database succeed;
-		
-		if (isset($_POST['on_site_now'])) {
-			$_POST['on_site_now'] = 'publish';
-		}else{
-			$_POST['on_site_now'] = 'private';
-		}
-		add_new_business_post_page($_POST);
+	//set post: is private or public
+	if (isset($_POST['on_site_now'])) {
+		$_POST['on_site_now'] = 'publish';
+	}else{
+		$_POST['on_site_now'] = 'private';
+	}
+	//try to save the post and get the post id
+	$_POST['post_id'] = add_new_business_post_page($_POST);
+	
+	//Save all data into business_info table
+	if ( $wpdb->insert($table_name, $_POST) ) {
+		//Saving post succeed
 		wp_redirect( home_url().'/business-register-success' );
 	}else{
 		//can not save in database

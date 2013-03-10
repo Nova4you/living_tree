@@ -4,7 +4,6 @@
 		<div class="container">
 			
 			<div id="mainbody">
-				
 				<div class="row">
 				<?php
 				
@@ -41,20 +40,22 @@
 									the_post();
 									
 									$image = '';
+									$short_desription = '';
 									
 									// Create the featured image html
 									if ( has_post_thumbnail( $post->ID ) ) {
 										$thumb = get_post_thumbnail_id($post->ID) ;
 										$f_image = wp_get_attachment_url($thumb) ;
 										if ( !empty ( $f_image ) ) {
-										
 											$feature_image = wp_get_attachment_url( $thumb );
 											$image = vt_resize( '', $f_image  , 280,187 , true );
 											$image = '<a href="'.get_permalink().'" class="hoverBorder pull-left" style="margin-right: 20px;margin-bottom:4px;"><img class="shadow" src="'.$image['url'].'" alt=""/></a>';
-											
 										}
-										
-
+									}else{
+										//try to get thumbnail from business workshop table by post id
+										$mylink = $wpdb->get_row('SELECT image1,description FROM business_info WHERE post_id = '.$post->ID);
+										$image = '<a href="'.get_permalink().'" class="hoverBorder pull-left" style="margin-right: 20px;margin-bottom:4px;"><img width="280px" height="187px" class="shadow" src="'.$mylink->image1.'" alt=""/></a>';
+										$short_desription = $mylink->description;
 									}
 
 									?>
@@ -72,11 +73,20 @@
 											<?php
 												if ( preg_match('/<!--more(.*?)?-->/', $post->post_content) ) {
 													echo $image;
-													the_content('');
+													if (strlen($short_desription)>0) {
+														echo '<p>'.$short_desription.'</p>';
+													}else{
+														the_content('');
+													}
 												}
 												else {
 													echo $image;
-													the_excerpt();
+													
+													if (strlen($short_desription)>0) {
+														echo '<p>'.$short_desription.'</p>';
+													}else{
+														the_excerpt();
+													}
 												}
 											?>
 											
@@ -91,7 +101,7 @@
 										<ul class="itemLinks clearfix">
 											<li class="itemCategory">
 												<span class="icon-folder-close"></span> 
-												<span><?php echo __( 'Published in', THEMENAME );?></span>
+												<span><?php echo __( 'In: ', THEMENAME );?></span>
 												<?php the_category(", ");  ?>
 											</li>
 										</ul><!-- item links -->
